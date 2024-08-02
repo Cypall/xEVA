@@ -1,0 +1,4 @@
+// $Id: login-server-config.txt,v 1.3 2003/08/19 00:27:12 mra Exp $
+// Set allow_new_accounts to 0 to disable new accounts via _M/_F
+
+allow_new_accounts 1

@@ -1,0 +1,51 @@
+Input one of the following commands and press ENTER.
+
+ PUBLIC-
+	!save					- Forces character stat/position-save.
+	!unstuck				- Helps you to get free when stuck in a wall.
+	!xp 					- Shows XP Stats.
+ SUB GM-
+ 	!saveloc				- Saves your location.
+ 	!warp <map> <x> <y>			- Warps GM to the specified map at the specified coordinates.
+ 	!go <0-8>				- Warps player to one of the 8 predefined warp-spots.
+ 	!speed <1-140>				- Adjusts GM walking-speed.
+ 	!storage				- Opens storage window (anywhere).
+ 	!who					- Lists players who are currently online, the map they're on and their coordinates (x&y).
+ 	!kick <player>				- Boots a certain player off the server (yes, you can kick yourself, too).
+ 	!warpto <player>			- Warps the GM to the specified player.
+ 	!recall <player>			- Warps the specified player to the GM (revives him/her if dead).
+ 	!kill <player>				- Kills <player>.
+ 	!heal [hp] [sp]				- Heals specified HP/SP points, or all if not specified.
+ 	!help					- Displays the text, you are actually reading.
+ 	!model <0-17> <0-8> <0-4>		- Changes (in order) hair type, hair color and clothing color.
+ GAME MASTER-					
+	!givezeny <amount> <name>		- Gives a player a variable amount of zeny.
+	!givestatp <amount> <name>		- Gives a player a variable amount of stat points.
+	!giveskillp <amount> <name>		- Gives a player a variable amount of skill points.
+	!saveloc				- Saves your location.
+	!warp <map> <x> <y>			- Warps GM to the specified map at the specified coordinates.
+	!warpto <player>			- Warps the GM to the specified player.
+	!recall <player>			- Warps the specified player to the GM (revives him/her if dead).
+	!load					- Loads last saved character stats, warps to last-saved character position.
+	!speed <1-140>				- Adjusts GM walking-speed.
+	!go <0-8>				- Warps player to one of the 8 predefined warp-spots.
+	!storage				- Opens storage window (anywhere).
+	!who					- Lists players who are currently online, the map they're on and their coordinates (x&y).
+	!kick <player>				- Boots a certain player off the server (yes, you can kick yourself, too).
+	!jobchange <0-12>			- Changes GM character's job class.
+	!option <p1> <p2> <p3>			- Adds/changes certain visual aspects around and on the GM's character.
+	!revive <player>			- Returns <player> to life.
+	!kill <player>				- Kills <player>.
+	!kami <message>				- Broadcasts a message to all players (prefixed with GM's character's name).
+	!heal [hp] [sp]				- Heals specified HP/SP points, or all if not specified.
+	!base_up <lvl>				- Increases GM's character's base level. Maximum level is 99.
+	!job_up	<lvl>				- Increases GM's character's job level.  Maximum level is 50.
+	!help					- Prints config/help.txt (GM commands and such, probably ugly and outdated).
+	!spawn <id> [number]			- Spawns <number> monsters of <id>.
+	!item [id] [number]			- Gives <number> items of <id>.
+	!model <0-17> <0-8> <0-4>		- Changes (in order) hair type, hair color and clothing color.
+	!pvp_on					- Turns PvP setting ON in current map.
+	!pvp_off				- Turns PvP setting OFF in current map.
+	!remove_monster				- Kills all monsters in your range.
+	!reload_config				- Reloads map-server-config.txt and char-server-config.txt (?).
+	!warpone <map> <x> <y> <name>		- Warps Player <name> to the specified <x> <y> coordinates of the specified <map>.

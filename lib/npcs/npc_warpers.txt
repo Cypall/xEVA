@@ -1,0 +1,327 @@
+// $Id: npc_warpers.txt,v 1.6 2003/10/06 19:28:27 importao Exp $
+// Total 13 NPC's in this file
+// By MivaBe on June 16th 2003
+
+//Warper NPC
+comodo.gat,188,148,2	script	Official Commodo Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Prontera City",Lpro,"Morocc Town",Lmor,"Alberta Town",Lalb,"Payon Town",Lpay,"Izlude Town",Lizl,"Geffen Town",Lgef,"Aldebaran Town",Lald,"Orc Dungeon",Lorc,"Pyra Dungeon",Lpyr,"Sphinx Dungeon",Lsph,"Payon Dungeon",Larc,"Bibalan Dungeon",Lbib,"Treasure Island",Ltre;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;		close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lpyr:	setzeny Zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Larc:	setzeny Zeny,0-100;	warp "pay_arche.gat",45,132;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+}
+
+alberta.gat,28,238,2	script	Official Alberta Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Prontera City",Lpro,"Morocc Town",Lmor,"Payon Town",Lpay,"Izlude Town",Lizl,"Geffen Town",Lgef,"Aldebaran Town",Lald,"Orc Dungeon",Lorc,"Pyra Dungeon",Lpyr,"Sphinx Dungeon",Lsph,"Payon Dungeon",Larc,"Bibalan Dungeon",Lbib,"Treasure Island",Ltre;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;		close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lpyr:	setzeny Zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Larc:	setzeny Zeny,0-100;	warp "pay_arche.gat",45,132;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}
+
+izlude.gat,51,82,2	script	Official Izlude Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Prontera City",Lpro,"Morocc Town",Lmor,"Payon Town",Lpay,"Alberta Town",Lalb,"Geffen Town",Lgef,"Aldebaran Town",Lald,"Orc Dungeon",Lorc,"Pyra Dungeon",Lpyr,"Sphinx Dungeon",Lsph,"Payon Dungeon",Larc,"Bibalan Dungeon",Lbib,"Treasure Island",Ltre;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;		close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lpyr:	setzeny Zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Larc:	setzeny Zeny,0-100;	warp "pay_arche.gat",45,132;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}
+
+geffen.gat,115,69,2	script	Official Geffen Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Prontera City",Lpro,"Morocc Town",Lmor,"Payon Town",Lpay,"Alberta Town",Lalb,"Izlude Town",Lizl,"Aldebaran Town",Lald,"Orc Dungeon",Lorc,"Pyra Dungeon",Lpyr,"Sphinx Dungeon",Lsph,"Payon Dungeon",Larc,"Bibalan Dungeon",Lbib,"Treasure Island",Ltre;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;	close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lpyr:	setzeny Zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Larc:	setzeny Zeny,0-100;	warp "pay_arche.gat",45,132;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}
+
+aldebaran.gat,132,114,2	script	Official Aldebaran Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Prontera City",Lpro,"Morocc Town",Lmor,"Payon Town",Lpay,"Alberta Town",Lalb,"Izlude Town",Lizl,"Geffen Town",Lgef,"Orc Dungeon",Lorc,"Pyra Dungeon",Lpyr,"Sphinx Dungeon",Lsph,"Payon Dungeon",Larc,"Bibalan Dungeon",Lbib,"Treasure Island",Ltre;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;	close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lpyr:	setzeny Zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Larc:	setzeny Zeny,0-100;	warp "pay_arche.gat",45,132;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}
+
+in_orcs01.gat,27,167,2	script	Official Orc Dungeon Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Prontera City",Lpro,"Morocc Town",Lmor,"Payon Town",Lpay,"Alberta Town",Lalb,"Izlude Town",Lizl,"Geffen Town",Lgef,"Aldebaran Town",Lald,"Pyra Dungeon",Lpyr,"Sphinx Dungeon",Lsph,"Payon Dungeon",Larc,"Bibalan Dungeon",Lbib,"Treasure Island",Ltre;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;		close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lpyr:	setzeny Zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Larc:	setzeny Zeny,0-100;	warp "pay_arche.gat",45,132;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}
+
+iz_dun00.gat,174,170,2	script	Official Bibalan Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Prontera City",Lpro,"Morocc Town",Lmor,"Payon Town",Lpay,"Alberta Town",Lalb,"Izlude Town",Lizl,"Geffen Town",Lgef,"Aldebaran Town",Lald,"Orc Dungeon",Lorc,"Pyra Dungeon",Lpyr,"Sphinx Dungeon",Lsph,"Payon Dungeon",Larc,"Treasure Island",Ltre;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;		close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lpyr:	setzeny Zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Larc:	setzeny Zeny,0-100;	warp "pay_arche.gat",45,132;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}
+
+prontera.gat,155,220,4	script	Official Prontera Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Morocc Town",Lmor,"Payon Town",Lpay,"Alberta Town",Lalb,"Izlude Town",Lizl,"Geffen Town",Lgef,"Aldebaran Town",Lald,"Orc Dungeon",Lorc,"Pyra Dungeon",Lpyr,"Sphinx Dungeon",Lsph,"Payon Dungeon",Larc,"Bibalan Dungeon",Lbib,"Treasure Island",Ltre;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;		close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lpyr:	set zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Larc:	setzeny Zeny,0-100;	warp "pay_arche.gat",45,132;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}
+
+morocc.gat,168,287,2	script	Official Moroc Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Prontera City",Lpro,"Payon Town",Lpay,"Alberta Town",Lalb,"Izlude Town",Lizl,"Geffen Town",Lgef,"Aldebaran Town",Lald,"Orc Dungeon",Lorc,"Pyra Dungeon",Lpyr,"Sphinx Dungeon",Lsph,"Payon Dungeon",Larc,"Bibalan Dungeon",Lbib,"Treasure Island",Ltre;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;		close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lpyr:	setzeny Zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Larc:	setzeny Zeny,0-100;	warp "pay_arche.gat",45,132;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}
+
+payon.gat,90,41,2	script	Official Payon Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Prontera City",Lpro,"Morocc Town",Lmor,"Alberta Town",Lalb,"Izlude Town",Lizl,"Geffen Town",Lgef,"Aldebaran Town",Lald,"Orc Dungeon",Lorc,"Pyra Dungeon",Lpyr,"Sphinx Dungeon",Lsph,"Payon Dungeon",Larc,"Bibalan Dungeon",Lbib,"Treasure Island",Ltre;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lpyr:	setzeny Zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Larc:	setzeny Zeny,0-100;	warp "pay_arche.gat",45,132;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}
+
+moc_ruins.gat,63,168,2	script	Official Pyramid Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Prontera City",Lpro,"Morocc Town",Lmor,"Payon Town",Lpay,"Alberta Town",Lalb,"Izlude Town",Lizl,"Geffen Town",Lgef,"Aldebaran Town",Lald,"Orc Dungeon",Lorc,"Sphinx Dungeon",Lsph,"Payon Dungeon",Larc,"Bibalan Dungeon",Lbib,"Treasure Island",Ltre;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;		close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Larc:	setzeny Zeny,0-100;	warp "pay_arche.gat",45,132;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}
+
+moc_fild19.gat,106,101,2	script	Official Sphinx Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Prontera City",Lpro,"Morocc Town",Lmor,"Payon Town",Lpay,"Alberta Town",Lalb,"Izlude Town",Lizl,"Geffen Town",Lgef,"Aldebaran Town",Lald,"Orc Dungeon",Lorc,"Pyra Dungeon",Lpyr,"Payon Dungeon",Larc,"Bibalan Dungeon",Lbib,"Treasure Island",Ltre;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;		close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lpyr:	setzeny Zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Larc:	setzeny Zeny,0-100;	warp "pay_arche.gat",45,132;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}
+
+pay_arche.gat,52,127,2	script	Official Payon Dungeon Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Prontera City",Lpro,"Morocc Town",Lmor,"Payon Town",Lpay,"Alberta Town",Lalb,"Izlude Town",Lizl,"Geffen Town",Lgef,"Aldebaran Town",Lald,"Orc Dungeon",Lorc,"Pyra Dungeon",Lpyr,"Sphinx Dungeon",Lsph,"Bibalan Dungeon",Lbib,"Treasure Island",Ltre;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;		close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lpyr:	setzeny Zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}
+
+alb2trea.gat,57,69,2	script	Official Treasure Island Warper	116,{
+	mes "I'm a WarpingNPC.";
+	mes "I can warp you to almost";
+	mes "all towns and dungeons.";
+	mes "But you need to spend 100z";
+	next;
+	mes "Please choose a destination:";
+	next;
+	menu	"Comodo Beach town",Lcmd,"Prontera City",Lpro,"Morocc Town",Lmor,"Payon Town",Lpay,"Alberta Town",Lalb,"Izlude Town",Lizl,"Geffen Town",Lgef,"Aldebaran Town",Lald,"Orc Dungeon",Lorc,"Pyra Dungeon",Lpyr,"Sphinx Dungeon",Lsph,"Payon Dungeon",Larc,"Bibalan Dungeon",Lbib;
+	Lpro:	setzeny Zeny,0-100;	warp "prontera.gat",156,190;	close;
+	Lmor:	setzeny Zeny,0-100;	warp "morocc.gat",160,294;	close;
+	Lpay:	setzeny Zeny,0-100;	warp "payon.gat",90,29;		close;
+	Lalb:	setzeny Zeny,0-100;	warp "alberta.gat",19,233;	close;
+	Lizl:	setzeny Zeny,0-100;	warp "izlude.gat",35,78;	close;
+	Lgef:	setzeny Zeny,0-100;	warp "geffen.gat",120,64;	close;
+	Lald:	setzeny Zeny,0-100;	warp "aldebaran.gat",140,123;	close;
+	Lorc:	setzeny Zeny,0-100;	warp "in_orcs01.gat",28,157;	close;
+	Lpyr:	setzeny Zeny,0-100;	warp "moc_ruins.gat",58,161;	close;
+	Lsph:	setzeny Zeny,0-100;	warp "moc_fild19.gat",105,99;	close;
+	Lbib:	setzeny Zeny,0-100;	warp "iz_dun00.gat",168,168;	close;
+	Ltre:	setzeny Zeny,0-100;	warp "alb2trea.gat",91,63;	close;
+	Lcmd:	setzeny Zeny,0-100; warp "comodo.gat",191,150;	close;}

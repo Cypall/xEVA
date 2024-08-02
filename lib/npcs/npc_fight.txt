@@ -1,0 +1,220 @@
+//Prontera 2V2
+pvp_2vs2.gat,32,22,2	script	Bruno	87,{
+	mes "[Bruno]";
+	mes "You wimpin out already?";
+	menu "Yes",goback,"No",stay;
+		goback:
+		mes "Man!, you don't even got scratches, you wimp.";
+		next;
+		warp "prt_in.gat",162,13;
+		close;
+		stay:
+		mes "Impressive!, I respect your stamina!";
+		close;
+}
+
+prt_in.gat,164,11,5	script	Bruno	87,{
+        mes "[Bruno]";
+        mes "You sure you want in here?";
+        menu "Yes",gopvp,"No",nopvp;
+                gopvp:
+                mes "Was nice knowin you chump.";
+                next;
+                warp "pvp_2vs2.gat",36,49;
+                close;
+                nopvp:
+                mes "Didn't think so, wuss!";
+                close;
+}
+
+prt_are_in.gat,102,86,4	script	Herman	125,{
+	mes "[Herman]";
+	mes "Welcome to Royal Rumble!";
+	mes "Ladies and Gents,my name is Herman from `Cool Event Corp.'!";
+	next;
+	menu "What's Royal Rumble.",M0,"Boo~Go Home~",MEnd;
+
+	M0:
+		mes "[Herman]";
+		mes "We, Cool Event Corp., open a Special event to give a fun to everybody visiting Arena.";
+		mes "You can slip your monotonous day life for the moment during the event we provide you!";
+		next;
+		mes "[Herman]";
+		mes "This event called ..Rooooooyal Rumbbbbbbble!!";
+		mes "*Cough* !*Cough*..*Cough* !!";
+		next;
+		mes "[Herman]";
+		mes ". . . . .";
+		mes "Arrggghhh Sooory.";
+		next;
+		mes "[Herman]";
+		mes "When players gather as many as needed in Each Stanbyroom,";
+		mes "We will guide you to the Colosseum.";
+		next;
+		mes "[Herman]";
+		mes "In that Colosseum, you have to fight with Hostile Monsters within 5 minutes,";
+		mes "Using 8 warp zone located at 8 directions.";
+		next;
+		mes "[Herman]";
+		mes "When you strike into the deep inside of Monsters you will see Organ NPCs which control and generate Monsters.";
+		mes "You should have to speak them if you want to make an easy way to get a victory. They will release you from enemies.";
+		next;
+		mes "[Herman]";
+		mes "Whatever you eliminate all enemies by yourself or get helped by Organ NPCs, When you kill them all,";
+		mes "It is regarded as the Perfect Clear on Royal Rumble!";
+		next;
+		mes "[Herman]";
+		mes "Have some fun in Royal Rumble with your companions.";
+		mes "Once again, My name is Herman from Cool Event Corp. Thank you!";
+		close;
+
+	MEnd:
+		mes "[Herman]";
+		mes "You go Home, Baby";
+		close;
+}
+
+prt_are_in.gat,97,86,4	script	Lancelot	125,{
+	mes "[Lancelot]";
+	mes "Hi Hi! Come on ! Make yourself at Home!";
+	mes "My name is Lacelot from Cool Event Corp. I am here to tell you about Time Limit Fight. Do you want to Listen?";
+	next;
+	menu "Yeah, Cool.",M0,"Sorry, I don't want to.",MEnd;
+
+	M0:
+		mes "[Lancelot]";
+		mes "We, Cool Event Corp., open a Special event to give a fun to everybody visiting Arena.";
+		mes "You can slip your monotonous day life for the moment during the event we provide you!";
+		next;
+		mes "[Lancelot]";
+		mes "The Event Called ..Timeeeee-- Limmmmmitttt---Figgggghhtt !!";
+		mes "*Aaahchoo* !! *Achoo* !! *Cough**Cough* ..";
+		next;
+		mes "[Lancelot]";
+		mes ". . . . . Whack..";
+		mes "Oh Boy.. Really Sorry to make you uncomfortable with this.";
+		next;
+		mes "[Lancelot]";
+		mes "When players gather as many as we need in Each Standbyroom";
+		mes "We will guide you to the Labylinth.";
+		next;
+		mes "[Lancelot]";
+		mes "In that Labylinth,you have to terminate all monsters within 5 minutes,";
+		mes "Using this Warp zone and that warp zone...";
+		next;
+		mes "[Lancelot]";
+		mes "When you kill all Monsters in one room,another gate will be opened ..and you can go in there.";
+		mes "One thing you must know is when you enter the new room door is totally closed to block your exit ..";
+		next;
+		mes "[Lancelot]";
+		mes "You cannot go back to where you're from.";
+		next;
+		mes "[Lancelot]";
+		mes "In case of Level 1 Stage, the door of Boss Stage will be opened when you eliminate all monsters in every room ..";
+		mes "But in Level 2 and 3, even though there are many complexed corridors, if you follow the shortcut, you will enter the Boss Room at ease.";
+		next;
+		mes "[Lancelot]";
+		mes "Get some fun with your companions.";
+		mes "Thank you for your time, once again my name is Lancelot!";
+		close;
+	MEnd:
+		mes "[Lancelot]";
+		mes "Alright, Bye Bye";
+		close;
+}
+
+prt_are_in.gat,91,86,4	Zakkie	84,{
+	mes "[Zakkie]";
+	mes "Welcome to Royal Rumble,the World of Fighters!";
+	mes "My name is Zakkie from Cool Event Corp.!";
+	mes "If you don't mind let me give you some tips for more fun.";
+	next;
+	menu "No!i don't mind.Go ahead.",M0,"Errr....I know already.",MEnd;
+
+	M0:
+		mes "[Zakkie]";
+		mes "when get started, You will ecounter many monsters through 8 warp zones.";
+		mes "You can choose either way of the Battle. You can find Organ NPCs behind each Warp Zone or You can kill all Enemies by yourself.";
+		next;
+		mes "[Zakkie]";
+		mes "When you satisfy one of them, it is regarded as Clear on that Round.";
+		mes "We suggest you to discuss with party members to find out better way of the Battle.";
+		close;
+	MEnd:
+		mes "[Zakkie]";
+		mes "Whattt!! Did you say you know the tips?!";
+		mes "Wow~Excellent. Then you don't need my help. ¡ÙWell have fun~!";
+		close;
+}
+
+prt_are_in.gat,108,86,4	script	Boris 84,{
+	mes "[Boris]";
+	mes "Hmm.. I can easily imagine how frustrated you have been in your life, dear.. Because Common people cannot dare to visit me.";
+	mes "Let me introduce myself. My name is Boris and the director of Customer Support Team in Cool Event Corp.";
+	mes "I will give you the exceptional tips only for the Bloodthirsty.";
+	next;
+	menu "Will you please?",M0,"Thank you but I already know about it.",MEnd;
+
+	M0:
+		mes "[Boris]";
+		mes "Before get started, you must work out a strategy considering your members.";
+		mes "Then you can warp into the Battle.";
+		next;
+		mes "[Boris]";
+		mes "If 8 men jump into the Warp zone together, You will succeed.";
+		mes "Otherwise If a man or two, I don't think you can survive.";
+		next;
+		mes "[Boris]";
+		mes "And let's talk about the Running Time of Royal Rumble and of Time Limit Fight.";
+		mes "Although every Battle Time is limitted, but sometimes it is increased by a Bonus when you clear One Round.";
+		next;
+		mes "[Boris]";
+		mes "Bonus Time will be increased by Second.. When you get a Bonus Time";
+		mes "Definately you could extent the Limit of Battle. You can check the Time passage with the announcement of our employee.";
+		close;
+
+	MEnd:
+		mes "[Boris]";
+		mes ".. Ahh...I need my room in Dark ..";
+		mes "Hmm Hmm Nothing, Nothing.";
+		close;
+}
+
+prt_are_in.gat,30,153,4	Austin	84,{
+	mes "[Austin]";
+	mes "Oh Boy! What a Shame.. You could have a Victory. It hurts my heart.";
+	mes "But Don't be sad. You will win next time.";
+	mes "You are always welcomed, please come back anytime.";
+	close;
+}
+
+prt_are_in.gat,172,152,4	Martin	84,{
+	mes "[Martin]";
+	mes "Wow~Congratulations!";
+	mes "You've done incredible.";
+	mes "I hope we will see each other soon.";
+	close;
+
+prt_are_in.gat,100,90,5	Kapra Employee 113,{
+	mes "[Kapra's Staff]"
+	mes "Welcome to Kapra's. We will stay with you wherever you go,"
+	next;
+	menu "Save",M0,"Use Storage",M1,"Cancel",MEnd;
+
+	M0:
+		save "prt_are_in.gat",100,84;
+		close;
+
+	M1:
+		if(Zeny < 40) goto NoZeny;
+		setzeny Zeny,0 - 40;
+		open_storage;
+		close;
+
+		NoZeny:
+			mes "[Kapra's Staff]";
+			mes "The fee is 40 Zeny .";
+			close;
+	MEnd:
+		close;
+}
